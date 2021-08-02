@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -93,6 +94,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R35TIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBtnClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBtnHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopBtnClicked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopBtnHovered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
